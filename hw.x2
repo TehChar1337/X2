@@ -1,0 +1,6 @@
+USE MAIN.X2L
+ENCODE UTF-8
+MAIN(){
+OUTPUT “Hello, World!”
+}
+EOF
