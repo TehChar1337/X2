@@ -1,0 +1,21 @@
+vUSE MAIN.X2L
+ENCODE UTF-8
+MAIN(){
+IF {VAR INT C, A
+INPUT C
+“C=5” THEN
+“C*2=R” ELSE “C*3=R”
+OUTPUT R}
+WHILE: The instruction WHILE is similar to IF, but it repeats itself until a certain condition is achieved.
+Example(99 bottles of beer, only loop):
+WHILE {VAR INT Bottles
+Bottles=99
+OUTPUT “”Bottles” bottles of beer on the wall, “Bottles” bottles of beer.
+Take one down and pass it around, “Bottles-1” bottles of beer on the wall.”
+Bottles=0
+OUTPUT “No bottles of beer on the wall, No bottles of beer.
+Go to the store, buy some more, 99 bottles of beer on the wall”
+}
+}
+
+EOF
